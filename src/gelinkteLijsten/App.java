@@ -22,6 +22,22 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		
+		GelinkteLijst lijst = new GelinkteLijst();
+		
+		lijst.insertFirst(1);
+		System.out.print(lijst.toString());
+		
+		lijst.insertFirst(0);
+		System.out.print(lijst.toString());
+
+		lijst.insertLast(5);
+		System.out.print(lijst.toString());
+		
+//		lijst.insertBefore(4, 5);
+//		lijst.insertAfter(2, 1);
+		
+//		System.out.print(lijst.toString());
+		
 	}
 
 }
